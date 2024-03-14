@@ -7,7 +7,7 @@
     "test": "npx playwright test",
     "codegen": "npx playwright codegen",
     "ui":"npx playwright test --ui",
-    "headed": "npx playwright test --headed",
+    "h": "npx playwright test --headed",
     "report": "npx playwright show-report"
   },
   "keywords": [],
