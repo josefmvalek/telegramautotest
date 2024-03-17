@@ -12,6 +12,7 @@ test('test', async ({ page }) => {
   await page.getByLabel('Code').fill('');
   await page.getByRole('button', { name: 'LIFE | Жизнь в АРГЕНТИНЕ LIFE' }).click();
   await page.locator('#MiddleColumn').getByRole('button', { name: 'LIFE | Жизнь в АРГЕНТИНЕ' }).click();
-  await page.getByRole('button', { name: 'Marina Yakovleva', exact: true }).click();
   await page.pause()
 });
+
+.members-list .ListItem-button
